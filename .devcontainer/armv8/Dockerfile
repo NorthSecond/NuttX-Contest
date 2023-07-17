@@ -7,9 +7,10 @@ FROM ubuntu:18.04
 
 LABEL maintainer="Yifei Yang <yangyf83@aliyun.com>"
 
-RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak && \
-    sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
-    sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list 
+# Codespace Doesn't need to change sources.
+# RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak && \
+#     sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
+#     sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list 
     # sed -i 's/http:/https:/g' /etc/apt/sources.list
     # sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list && \
     # sed -i 's/security.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list
