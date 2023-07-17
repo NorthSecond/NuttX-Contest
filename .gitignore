@@ -1,0 +1,9 @@
+# # NuttX
+# nuttx/
+# apps/
+
+# logs
+*.log
+
+#vscode
+.vscode/

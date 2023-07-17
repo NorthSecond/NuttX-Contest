@@ -1,0 +1,25 @@
+{
+    "name": "NuttX-ARM64-Dev",
+
+    "build": {
+        "dockerfile": "armv8/Dockerfile",
+        "args": {
+            
+        }
+    },
+
+    "customizations": {
+        "vscode":{
+            "extensions":[
+              "ms-vscode.cpptools-extension-pack",
+              "ms-ceintl.vscode-language-pack-zh-hans",
+              "github.copilot",
+              "esbenp.prettier-vscode",
+              "chouzz.vscode-better-align",
+              "WakaTime.vscode-wakatime",
+              "vscodevim.vim",
+              "ms-vscode.makefile-tools"
+            ]
+        }
+    }
+}
