@@ -1,0 +1,8 @@
+[submodule "nuttx"]
+	path = nuttx
+	url = https://gitee.com/dead_lock_cscc20/nuttx.git
+	branch = releases/12.0
+[submodule "apps"]
+	path = apps
+	url = https://gitee.com/dead_lock_cscc20/nuttx-apps.git
+	branch = releases/12.0
